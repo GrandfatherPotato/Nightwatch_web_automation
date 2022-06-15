@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="gitlab"
+    errors="0" failures="0" hostname="" id="" package="gitlab" skipped="0"
+    tests="1" time="3.461" timestamp="">
+  
+    <testcase name="Validate blog page content" classname="gitlab" time="3.461" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

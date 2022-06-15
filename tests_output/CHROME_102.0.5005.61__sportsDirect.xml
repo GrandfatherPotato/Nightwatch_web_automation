@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="sportsDirect"
+    errors="0" failures="0" hostname="" id="" package="sportsDirect" skipped="0"
+    tests="2" time="9.174" timestamp="">
+  
+    <testcase name="Login with invalid credentials" classname="sportsDirect" time="3.781" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login" classname="sportsDirect" time="5.393" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
