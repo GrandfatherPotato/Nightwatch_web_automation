@@ -3,18 +3,15 @@ const sportsDirectCommands = {
         this.navigate();
         this.waitForElementVisible('@controlWrap', 5000);
     },
-    login: function (clickLogin,email,password) {
+    login: function (email,password) {
         this.click('@loginBtn');
         this.setValue('@emailField', email);
         this.setValue('@passwordField', password);
-        console.log(clickLogin);
-        if (clickLogin) { //If clicked with invalid input, will clear input
-            this.click('@loginFormBtn');
-        }
+        this.click('@loginFormBtn');
     },
     validateEmailError: function () {
         this.assert.visible('@emailError');
-        this.assert.textContains('@emailError','The Email Address field is not a valid e-mail address.');
+        this.assert.textContains('@emailError','This email address or password is incorrect');
     },
     checkAccountInfo: function () {
         this.waitForElementVisible('@controlWrap', 5000);
@@ -37,7 +34,7 @@ module.exports = {
         passwordField: '#Login_Password',
         loginFormBtn: '#LoginButton',
         bannerAccountBtn: 'ul.TopLinkMenu li.lillAccounts',
-        emailError: '#Login_EmailAddress-error',
+        emailError: 'span.field-validation-error',
         myDetailsBox: 'div.accountBox div.personalInfo',
         accountEmailField: '#txtEmailAddress'
     }

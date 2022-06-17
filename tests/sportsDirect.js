@@ -6,7 +6,7 @@ module.exports = {
         sportsDirectPage.prepareWebsite();
         
         //Login
-        sportsDirectPage.login(false,'hehe71','hehe72');
+        sportsDirectPage.login('hehe71@gmail.com','hehe72');
 
         //Validate error message
         sportsDirectPage.validateEmailError();
@@ -20,7 +20,7 @@ module.exports = {
         sportsDirectPage.prepareWebsite();
         
         //Login
-        sportsDirectPage.login(true,accountEmail,accountPassword);
+        sportsDirectPage.login(accountEmail,accountPassword);
 
         //Go to account info
         sportsDirectPage.checkAccountInfo();
