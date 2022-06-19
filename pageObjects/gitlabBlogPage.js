@@ -1,6 +1,6 @@
 var stringSimilarity = require("string-similarity");
 //Package used to find degree of similarity for strings
-// Taken from https://www.npmjs.com/package/string-similarity
+//Taken from https://www.npmjs.com/package/string-similarity
 
 const gitlabBlogCommands = {
     prepareWebsite: function () {

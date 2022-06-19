@@ -1,7 +1,7 @@
 const gitlabStatusPage = require("../pageObjects/gitlabStatusPage");
 
 module.exports = {
-    'Login with invalid credentials': client => {
+    'Verify page services functional': client => {
         let gitlabPage = client.page.gitlabStatusPage();
 
         //Load page
