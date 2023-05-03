@@ -1,1 +1,1 @@
-# valts_drozdovs_nightwatch_2022
+# Task for learning Nightwatch framework
